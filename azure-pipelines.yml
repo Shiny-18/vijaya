@@ -1,9 +1,9 @@
-trigger:
+Azure:
 
 - master
 
 
-pool:
+python:
 
 
   vmImage: 'ubuntu-latest'
@@ -53,7 +53,6 @@ steps:
     script: |
       print('AZURE PIPELINE')
       print('CONTINUOUS INTEGRATION & CONTINUOUS DEPLOYMENT')
-
 trigger:
 - main
 
